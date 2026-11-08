@@ -74,6 +74,16 @@ go build -o mdag ./cmd/mdag
 在 PowerShell 或 CMD 中直接使用上面的命令即可。若在 Git Bash 中执行 `resolve`、`cat`、
 `ls` 等子命令，请先运行 `export MSYS_NO_PATHCONV=1`，否则 `/docs` 会被 MSYS 改写成
 Windows 绝对路径，导致 "name C: not found in tree" 错误。
+
+#### Linux / macOS 说明
+
+产物可直接运行，也可以安装到 PATH：
+
+```bash
+chmod +x mdag
+sudo mv mdag /usr/local/bin/
+```
+
 Windows 下建议把产物命名为 `mdag.exe`：
 
 ```bash
