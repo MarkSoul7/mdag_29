@@ -68,6 +68,15 @@ cd mdag_29
 go build -o mdag ./cmd/mdag
 ```
 
+
+#### Linux / macOS 说明
+
+产物可直接运行，也可以安装到 PATH：
+
+```bash
+chmod +x mdag
+sudo mv mdag /usr/local/bin/
+```
 Windows 下建议把产物命名为 `mdag.exe`：
 
 ```bash
