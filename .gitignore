@@ -1,0 +1,17 @@
+# 编译产物
+mdag
+mdag.exe
+*.exe
+*.test
+*.out
+
+# 本地对象存储（由 mdag add 生成，不入库）
+/data/
+
+# 临时目录与编辑器文件
+_probe/
+tmp/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

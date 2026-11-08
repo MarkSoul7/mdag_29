@@ -1,0 +1,9 @@
+# 统一使用 LF，保证跨平台检出后 CID 可复现
+* text=auto eol=lf
+
+# 测试数据按二进制处理：不做行尾转换，字节不变则 CID 不变
+testdata/** -text
+
+*.png binary
+*.jpg binary
+*.docx binary
