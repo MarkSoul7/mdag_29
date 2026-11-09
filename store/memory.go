@@ -6,7 +6,7 @@ import (
 )
 
 // MemoryStore holds all objects in an in-memory map.
-// CID → serialised object bytes (pre-computed to guarantee idempotent Put).
+// CID → object; the map makes Put idempotent (same CID always maps to the same object).
 type MemoryStore struct {
 	objects map[string]object.Object
 }

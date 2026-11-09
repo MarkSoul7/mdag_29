@@ -25,7 +25,7 @@
 - CLI 子命令 `add`、`resolve`、`cat`、`ls`，支持 `--mem`
 - 10 个自动化测试，覆盖 CID 稳定性、变更传播、错误路径、分块读取
 - GitHub Actions CI：gofmt、go vet、go test
-- 完整文档：README、架构设计、五看三定分析、分支管理与冲突处理、协作记录
+- 完整文档：README 与 `docs/` 六篇（架构设计、五看三定分析、分支管理与冲突处理、协作记录、作业要求对照、Issue 讨论提纲）
 - Issue / Pull Request 模板与贡献指南
 - MIT 许可证
 
