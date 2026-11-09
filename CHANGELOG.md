@@ -6,6 +6,10 @@
 
 ## [Unreleased]
 
+### 修复
+
+- `.gitignore` 中的 `mdag` 误匹配 `cmd/mdag/`，导致 CI 检出后 `cmd/mdag` 缺失、构建失败；改为只忽略根目录的 `/mdag`、`/mdag.exe`
+
 ### 文档
 
 - 校准代码量（核心约 600 行，含测试约 900 行）、README 行数、docs 篇数与五看三定字数

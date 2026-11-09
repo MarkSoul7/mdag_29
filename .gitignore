@@ -1,6 +1,6 @@
 # 编译产物
-mdag
-mdag.exe
+/mdag
+/mdag.exe
 *.exe
 *.test
 *.out
